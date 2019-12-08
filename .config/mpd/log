@@ -1,0 +1,91 @@
+Dec 07 17:10 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 07 17:10 : client: [0] opened from 127.0.0.1:54938
+Dec 07 17:10 : client: [1] opened from [::1]:50494
+Dec 07 17:11 : client: [1] closed
+Dec 07 17:11 : client: [2] opened from [::1]:50518
+Dec 07 17:15 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 07 17:15 : client: [0] opened from 127.0.0.1:55020
+Dec 07 17:15 : client: [1] opened from [::1]:50576
+Dec 07 17:16 : client: [1] closed
+Dec 07 17:16 : client: [2] opened from [::1]:50578
+Dec 07 17:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 07 17:19 : client: [0] opened from 127.0.0.1:55108
+Dec 07 17:19 : client: [1] opened from [::1]:50664
+Dec 07 17:23 : client: [1] closed
+Dec 07 17:23 : client: [2] opened from [::1]:50700
+Dec 07 17:24 : update: added Minase Inori/[2015.12.02] 水瀬いのり｜夢のつぼみ/02. 笑顔が似合う日.flac
+Dec 07 17:24 : update: added Minase Inori/[2015.12.02] 水瀬いのり｜夢のつぼみ/01 .夢のつぼみ.flac
+Dec 07 17:24 : update: added Minase Inori/[2015.12.02] 水瀬いのり｜夢のつぼみ/03. あの日の空へ.flac
+Dec 07 17:24 : update: added Minase Inori/[2016.04.13] 水瀬いのり｜Harmony Ribbon/01. Harmony Ribbon.flac
+Dec 07 17:24 : update: added Minase Inori/[2016.04.13] 水瀬いのり｜Harmony Ribbon/02. Dreaming Girls.flac
+Dec 07 17:24 : update: added Minase Inori/[2016.04.13] 水瀬いのり｜Harmony Ribbon/03. Ring of Smile.flac
+Dec 07 17:24 : update: added Minase Inori/[2016.11.09] 水瀬いのり｜Starry Wish/01. Starry Wish.flac
+Dec 07 17:24 : update: added Minase Inori/[2016.11.09] 水瀬いのり｜Starry Wish/02. 夏の約束.flac
+Dec 07 17:24 : update: added Minase Inori/[2016.11.09] 水瀬いのり｜Starry Wish/03. MELODY FLAG.flac
+Dec 07 17:24 : update: added Minase Inori/[2017.04.05] 水瀬いのり｜Innocent flower/02. 夢のつぼみ.flac
+Dec 07 17:24 : update: added Minase Inori/[2017.04.05] 水瀬いのり｜Innocent flower/01. 春空.flac
+Dec 07 17:24 : update: added Minase Inori/[2017.04.05] 水瀬いのり｜Innocent flower/04. コイセヨオトメ.flac
+Dec 07 17:24 : update: added Minase Inori/[2017.04.05] 水瀬いのり｜Innocent flower/03. Lucky Clover.flac
+Dec 07 17:24 : update: added Minase Inori/[2017.04.05] 水瀬いのり｜Innocent flower/06. いつもずっと.flac
+Dec 07 17:24 : update: added Minase Inori/[2017.04.05] 水瀬いのり｜Innocent flower/05. 涙のあとは.flac
+Dec 07 17:24 : update: added Minase Inori/[2017.04.05] 水瀬いのり｜Innocent flower/07. Starry Wish.flac
+Dec 07 17:24 : update: added Minase Inori/[2017.04.05] 水瀬いのり｜Innocent flower/08. Will.flac
+Dec 07 17:24 : update: added Minase Inori/[2017.04.05] 水瀬いのり｜Innocent flower/10. 旅の途中.flac
+Dec 07 17:24 : update: added Minase Inori/[2017.04.05] 水瀬いのり｜Innocent flower/11. harmony ribbon.flac
+Dec 07 17:24 : update: added Minase Inori/[2017.04.05] 水瀬いのり｜Innocent flower/09. 星屑のコントレイル.flac
+Dec 07 17:24 : update: added Minase Inori/[2017.04.05] 水瀬いのり｜Innocent flower/12. Innocent flower.flac
+Dec 07 17:24 : update: added Minase Inori/[2017.08.09] 水瀬いのり｜アイマイモコ/02. リトルシューゲイザー.flac
+Dec 07 17:24 : update: added Minase Inori/[2017.08.09] 水瀬いのり｜アイマイモコ/01. アイマイモコ.flac
+Dec 07 17:24 : update: added Minase Inori/[2017.08.09] 水瀬いのり｜アイマイモコ/03. 夏夢.flac
+Dec 07 17:24 : update: added Minase Inori/[2017.11.29] 水瀬いのり｜Ready Steady Go!/01. Ready Steady Go!.flac
+Dec 07 17:24 : update: added Minase Inori/[2017.11.29] 水瀬いのり｜Ready Steady Go!/02. Happy Birthday.flac
+Dec 07 17:24 : update: added Minase Inori/[2017.11.29] 水瀬いのり｜Ready Steady Go!/03. Winter Wonder Wander.flac
+Dec 07 17:24 : update: added Minase Inori/[2018.05.23] 水瀬いのり｜BLUE COMPASS/01. ハートノイロ.flac
+Dec 07 17:24 : update: added Minase Inori/[2018.05.23] 水瀬いのり｜BLUE COMPASS/02. Ready Steady Go!.flac
+Dec 07 17:24 : update: added Minase Inori/[2018.05.23] 水瀬いのり｜BLUE COMPASS/03. identity.flac
+Dec 07 17:24 : update: added Minase Inori/[2018.05.23] 水瀬いのり｜BLUE COMPASS/04. Shoo-Bee-Doo-Wap-Wap!.flac
+Dec 07 17:24 : update: added Minase Inori/[2018.05.23] 水瀬いのり｜BLUE COMPASS/06. アイマイモコ.flac
+Dec 07 17:24 : update: added Minase Inori/[2018.05.23] 水瀬いのり｜BLUE COMPASS/08. アルペジオ.flac
+Dec 07 17:24 : update: added Minase Inori/[2018.05.23] 水瀬いのり｜BLUE COMPASS/05. シネマチックダイアリー.flac
+Dec 07 17:24 : update: added Minase Inori/[2018.05.23] 水瀬いのり｜BLUE COMPASS/07. これからも。.flac
+Dec 07 17:24 : update: added Minase Inori/[2018.05.23] 水瀬いのり｜BLUE COMPASS/09. Million Futures.flac
+Dec 07 17:24 : update: added Minase Inori/[2018.05.23] 水瀬いのり｜BLUE COMPASS/10. 三月と群青.flac
+Dec 07 17:24 : update: added Minase Inori/[2018.05.23] 水瀬いのり｜BLUE COMPASS/11. Sweet Melody.flac
+Dec 07 17:24 : update: added Minase Inori/[2018.05.23] 水瀬いのり｜BLUE COMPASS/12. BLUE COMPASS.flac
+Dec 07 17:24 : update: added Minase Inori/[2018.10.17] 水瀬いのり｜TRUST IN ETERNITY/03. 茜色ノスタルジア.flac
+Dec 07 17:24 : update: added Minase Inori/[2018.10.17] 水瀬いのり｜TRUST IN ETERNITY/01. TRUST IN ETERNITY.flac
+Dec 07 17:24 : update: added Minase Inori/[2018.10.17] 水瀬いのり｜TRUST IN ETERNITY/02. ピュアフレーム.flac
+Dec 07 17:24 : update: added Minase Inori/[2019.01.23] 水瀬いのり｜Wonder Caravan!/02. 君色プロローグ.flac
+Dec 07 17:24 : update: added Minase Inori/[2019.01.23] 水瀬いのり｜Wonder Caravan!/01. Wonder Caravan!.flac
+Dec 07 17:24 : update: added Minase Inori/[2019.01.23] 水瀬いのり｜Wonder Caravan!/03. Snow White.flac
+Dec 07 17:24 : update: added Minase Inori/[2019.04.10] 水瀬いのり｜Catch the Rainbow!/03. Kitty Cat Adventure.flac
+Dec 07 17:24 : update: added Minase Inori/[2019.04.10] 水瀬いのり｜Catch the Rainbow!/01. Step Up!.flac
+Dec 07 17:24 : update: added Minase Inori/[2019.04.10] 水瀬いのり｜Catch the Rainbow!/05. 今を僕らしく生きてくために.flac
+Dec 07 17:24 : update: added Minase Inori/[2019.04.10] 水瀬いのり｜Catch the Rainbow!/02. ココロはMerry-Go-Round.flac
+Dec 07 17:24 : update: added Minase Inori/[2019.04.10] 水瀬いのり｜Catch the Rainbow!/04. Wonder Caravan!.flac
+Dec 07 17:24 : update: added Minase Inori/[2019.04.10] 水瀬いのり｜Catch the Rainbow!/06. 約束のアステリズム.flac
+Dec 07 17:24 : update: added Minase Inori/[2019.04.10] 水瀬いのり｜Catch the Rainbow!/07. Future Seeker.flac
+Dec 07 17:24 : update: added Minase Inori/[2019.04.10] 水瀬いのり｜Catch the Rainbow!/08. brave climber.flac
+Dec 07 17:24 : update: added Minase Inori/[2019.04.10] 水瀬いのり｜Catch the Rainbow!/09. TRUST IN ETERNITY.flac
+Dec 07 17:24 : update: added Minase Inori/[2019.04.10] 水瀬いのり｜Catch the Rainbow!/10. 水彩メモリー.flac
+Dec 07 17:24 : update: added Minase Inori/[2019.04.10] 水瀬いのり｜Catch the Rainbow!/11. My Graffiti.flac
+Dec 07 17:24 : update: added Minase Inori/[2019.04.10] 水瀬いのり｜Catch the Rainbow!/12. Catch the Rainbow!.flac
+Dec 07 17:24 : update: added Minase Inori/[2019.06.26] 水瀬いのり｜まっすぐに、トウメイに。/01. まっすぐに、トウメイに。.mp3
+Dec 07 17:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 07 17:25 : player: played "Minase Inori/[2019.04.10] 水瀬いのり｜Catch the Rainbow!/01. Step Up!.flac"
+Dec 07 17:27 : player: played "Minase Inori/[2019.04.10] 水瀬いのり｜Catch the Rainbow!/02. ココロはMerry-Go-Round.flac"
+Dec 07 17:28 : client: [3] opened from 127.0.0.1:55150
+Dec 07 17:28 : client: [3] closed
+Dec 07 17:28 : client: [4] opened from 127.0.0.1:55152
+Dec 07 17:28 : client: [4] closed
+Dec 07 17:28 : client: [2] closed
+Dec 07 17:28 : client: [5] opened from [::1]:50708
+Dec 07 17:32 : player: played "Minase Inori/[2019.04.10] 水瀬いのり｜Catch the Rainbow!/02. ココロはMerry-Go-Round.flac"
+Dec 07 17:37 : player: played "Minase Inori/[2019.04.10] 水瀬いのり｜Catch the Rainbow!/03. Kitty Cat Adventure.flac"
+Dec 07 17:40 : client: [0] closed
+Dec 07 17:40 : client: [6] opened from 127.0.0.1:55722
+Dec 07 17:40 : client: [7] opened from 127.0.0.1:55724
+Dec 07 17:41 : client: [5] closed
+Dec 07 17:45 : client: [6] closed
+Dec 07 17:45 : client: [7] closed
+Dec 07 18:00 : player: played "Minase Inori/[2019.04.10] 水瀬いのり｜Catch the Rainbow!/04. Wonder Caravan!.flac"
