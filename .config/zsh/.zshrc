@@ -4,11 +4,19 @@ PROMPT="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )%{$fg[yellow]%}%n%{$fg
 autoload -U compinit
 zstyle ':completion:*' menu select
 zmodload zsh/complist
-compinit
+compinit -d $HOME/.config/zsh/zcompdump-$ZSH_VERSION
 
 _comp_options+=(globdots)
 
-export XDG_CONFIG_HOME=$HOME/.config
+HISTSIZE=1000
+HISTFILE=$HOME/.config/zsh/.zsh_history
+SAVEHIST=5000
+setopt appendhistory
+setopt sharehistory
+setopt incappendhistory
+
+bindkey -v
+
 alias mpdc=ncmpcpp
 alias f=ranger
 alias ls='ls --color=always'
