@@ -26,7 +26,7 @@ monitor = ${env:MONITOR:}
 wm-restack = i3
 fixed-center = true
 width = 100%
-height = 24px
+height = 40px
 override-redirect = true
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -47,14 +47,16 @@ module-margin-left = 2
 
 modules-left = i3 title
 modules-center = date
-modules-right = mpd pulseaudio eth cpu fs memory
+modules-right = mpd pulseaudio backlight eth wifi bat  cpu fs memory
+
+dpi = 192
 
 [module/fs]
 type=internal/fs
 interval = 25
 
 mount-0 = /
-mount-1 = /mnt/data
+;mount-1 = /mnt/data
 
 label-mounted-underline = ${colors.cyan}
 label-mounted = /: %percentage_used%%
@@ -75,6 +77,15 @@ format-prefix-foreground = ${colors.gray}
 format-underline = ${colors.darkcyan}
 label = %percentage_used%%
 
+[module/wifi]
+type = internal/network
+interface = wlp2s0
+
+format-connected-underline = ${colors.darkgreen}
+label-connected =  %essid%
+
+label-disconnected =  
+
 [module/eth]
 type = internal/network
 interface = enp24s0
@@ -85,6 +96,49 @@ format-connected-prefix = " "
 format-connected-prefix-foreground = ${colors.gray} 
 label-connected = %local_ip%
 
+[module/bat]
+type = internal/battery
+
+full-at = 98
+
+battery = BAT0
+adapter = AC
+
+poll-interval = 5
+
+format-discharging-underline = ${colors.violet}
+format-charging-underline = ${colors.violet}
+format-full-underline = ${colors.violet}
+
+format-discharging = <ramp-capacity> <label-discharging>
+
+label-discharging = %percentage%%
+ramp-capacity-0 =  
+ramp-capacity-1 =
+ramp-capacity-2 =
+ramp-capacity-3 =
+ramp-capacity-4 =
+
+label-full =   %percentage%%
+
+format-charging = <animation-charging> <label-charging>
+
+label-charging = %percentage%%
+animation-charging-0 =  
+animation-charging-1 =
+animation-charging-2 =
+animation-charging-3 =
+animation-charging-4 = 
+animation-charging-framerate = 750
+
+[module/backlight]
+type = internal/xbacklight
+
+format-underline = ${colors.darkmagenta}
+
+format = <label>
+
+label =  %percentage%%
 
 [module/mpd]
 type = internal/mpd
