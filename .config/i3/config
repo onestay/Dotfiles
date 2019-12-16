@@ -26,6 +26,7 @@ exec --no-startup-id /home/onestay/.config/i3/load_layout.sh
 # screen before suspend. Use loginctl lock-session to lock your screen.
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
+bindsym $mod+Shift+o exec --no-startup-id $HOME/Documents/scripts/upload.sh
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 
@@ -34,7 +35,8 @@ exec --no-startup-id dunst &
 exec --no-startup-id picom -b -d :0
 for_window [class=".*"] border pixel 2
 gaps inner 15
-gaps outer 20
+gaps outer 15
+gaps top 25
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +2% && $refresh_i3status
@@ -46,7 +48,8 @@ bindsym XF86AudioPlay exec --no-startup-id mpc toggle
 bindsym XF86AudioNext exec --no-startup-id mpc next
 bindsym XF86AudioPrev exec --no-startup-id mpc prev
 
-
+# screenshot stuff
+bindsym $mod+Shift+o exec --no-startup-id maim -s | xclip -selection clipboard -t image/png
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
