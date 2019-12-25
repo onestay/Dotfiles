@@ -2,12 +2,13 @@
 black = #000
 white = #fff
 
-background = #002b36
-foreground = #93a1a1
+background = ${xrdb:background:#002b36}
+foreground = ${xrdb:foreground:#93a1a1} 
 
-yellow = #b58900
-orange = #cb4b16
-red = #dc322f
+lightgray = $a89984
+yellow = #f0c674
+orange = #de935f
+red = #a54242
 magenta = #d33682
 violet = #6c71c4
 blue = #268bd2
@@ -23,7 +24,7 @@ darkcyan = #689d6a
 gray = #928374
 [bar/main]
 monitor = ${env:MONITOR:}
-wm-restack = i3
+wm-restack = bspwm
 fixed-center = true
 width = 100%
 height = 40px
@@ -45,11 +46,16 @@ font-2 = "Font Awesome 5 Free:style=Solid"
 
 module-margin-left = 2
 
-modules-left = i3 title
-modules-center = date
-modules-right = mpd pulseaudio backlight eth wifi bat  cpu fs memory
+modules-left = bspwm i3 title
+modules-right = mpd pulseaudio backlight eth wifi bat  cpu fs memory date
 
 dpi = 192
+
+tray-position = center
+tray-maxsize = 32
+tray-scale = 1
+
+cursor-click = pointer
 
 [module/fs]
 type=internal/fs
@@ -82,10 +88,9 @@ type = internal/network
 interface = wlp2s0
 
 format-connected-underline = ${colors.darkgreen}
-label-connected =  %essid%
+label-connected =  %{A1:nm-connection-editor:}%essid%%{A}
 
 label-disconnected =  
-
 [module/eth]
 type = internal/network
 interface = enp24s0
@@ -146,10 +151,10 @@ host = localhost
 port = 6600
 format-online = <label-song> <label-time>
 
-click-left = st -e ncmpcpp --config $HOME/.config/ncmpcpp/config &
-click-right = mpc toggle &
+;click-left = st -e ncmpcpp --config $HOME/.config/ncmpcpp/config &
+;click-right = mpc toggle &
 
-label-song = %artist% - %title%
+label-song = %{A1:mpc toggle:}%artist% - %title%%{A}
 label-song-maxlen = 50
 label-song-ellipsis= true
 
@@ -166,6 +171,23 @@ time = %H:%M
 
 label = %date% %time%
 
+[module/bspwm]
+type = internal/bspwm
+label-focused = %index%
+label-focused-foreground = ${colors.black}
+label-focused-background = ${colors.blue}
+label-focused-underline= ${colors.yellow}
+label-focused-padding = 1
+
+label-occupied = %index%
+label-occupied-underline = ${colors.blue}
+label-occupied-padding = 1
+
+label-urgent = %index%!
+label-urgent-background = ${colors.red}
+label-urgent-padding = 1
+
+label-empty = 
 [module/i3]
 type = internal/i3
 format = <label-state> <label-mode>
