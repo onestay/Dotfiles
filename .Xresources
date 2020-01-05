@@ -2,7 +2,7 @@ Xft.dpi: 192
 
 URxvt.cursorBlink: true
 URxvt.scrollBar: false
-URxvt.font: xft:Inconsolata:style=Regular:size=14
+URxvt.font: xft:Fira Mono:style=Regular:size=14
 ! do not scroll with output
 URxvt*scrollTtyOutput: false
 

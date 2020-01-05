@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 super + @space
-	rofi -show run
+	rofi -dpi 192 -show run
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -44,13 +44,11 @@ super + g
 
 # set the window state
 super + {t,shift + t,s,f}
-	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
-
+	bspc node -t {tiled,pseudo_tiled,floating,fullscreen} 
 # set the node flags
 super + ctrl + {m,x,y,z}
 	bspc node -g {marked,locked,sticky,private}
 
-#
 # focus/swap
 #
 
@@ -142,4 +140,5 @@ XF86AudioNext
 XF86AudioPrev
 	mpc prev
 
-
+super + shift + e
+	$HOME/Documents/scripts/powermenu.sh

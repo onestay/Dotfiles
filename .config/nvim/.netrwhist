@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/onestay/Documents/dev/c'
+let g:netrw_dirhist_9='/home/onestay/Documents/scripts'
+let g:netrw_dirhist_8='/home/onestay/.config/rofi'
+let g:netrw_dirhist_7='/home/onestay/.config/sxhkd'
+let g:netrw_dirhist_6='/home/onestay/.config/bspwm'
+let g:netrw_dirhist_5='/home/onestay/.config/sxhkd'
+let g:netrw_dirhist_4='/home/onestay/Documents/dev/go/MarathonTools-API'
+let g:netrw_dirhist_3='/home/onestay/Documents/dev/go/MarathonTools-API/api/routes/social'
+let g:netrw_dirhist_2='/home/onestay/Documents/dev/go/MarathonTools-API/api/routes'
+let g:netrw_dirhist_1='/home/onestay/Documents/dev/go/MarathonTools-API/api'

@@ -15,11 +15,12 @@ setopt appendhistory
 setopt sharehistory
 setopt incappendhistory
 
-bindkey -v
+export PATH="$PATH:$HOME/go/bin:$HOME/.yarn/bin"
 
 alias mpdc=ncmpcpp
 alias f=ranger
 alias ls='ls --color=always'
+alias vim=nvim
 unsetopt BEEP
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
